@@ -90,11 +90,12 @@ p {
   padding: 0.5em 0.75em;
   background-color: limegreen;
   background-image: linear-gradient(to bottom, limegreen, #255500);
-  font-size: 1.5rem;
+  border-radius: 10px;
   color: #fff;
-  text-decoration: none;
-  border-radius: 6px;
   clear: both;
+  font-size: 1.5rem;
+  text-decoration: none;
+  float: both;
 }
 
 .bugs {
@@ -119,9 +120,20 @@ footer{
   padding: 2em;
 }
 
-.allbugs{
-  width: 50%;
-  float:left;
+.ant{
+width: 100%;
+float: left;
 }
 
-.ant
+.dun{
+width: 100%;
+float: left;
+}
+.tor{
+width: 100%;
+float: left;
+}
+.sta{
+width: 100%;
+float: left;
+}
