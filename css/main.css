@@ -115,9 +115,10 @@ footer{
 }
 
 .footer{
-  background-color: #512200;
+  background-color: #512100;
   opacity: 0.2;
   padding: 2em;
+  size: 80%;
 }
 
 .ant{
