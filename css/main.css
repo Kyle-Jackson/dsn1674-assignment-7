@@ -1,5 +1,7 @@
 html {
   box-sizing: border-box;
+  font-family: 'Dosis', sans-serif;
+  font-weight: bold;
 }
 
 *,*::before, *:: after {
@@ -8,11 +10,13 @@ html {
 
 .masthead {
   padding-top: 6em;
-  background-image: url("../images/beetle.svg"), url("../images/mini-waves.png");
-  background-size: 75px auto, 200px auto;
-  background-repeat: no-repeat, repeat;
-  background-position: center center, left top;
-  text-align: center;
+  background-image: url("../images/beetle.svg"), url("../images/beetle.svg"), url("../images/mini-waves.png");
+  background-size: 75px auto, 75px auto, 100px auto;
+  padding-top: 1.5em;
+  padding-bottom: 3.3em;
+  background-repeat: no-repeat, no-repeat, repeat;
+  background-position: right 25px, left 25px, left top;
+  display: block;
 }
 
 header {
@@ -27,7 +31,10 @@ header {
 h1 {
   margin: 0;
   text-align: center;
-  color: #512100;
+  font-weight: bold;
+  font-size: 3em;
+  color: #512200;
+  padding-bottom: 0.5em;
 }
 
 .nav a {
@@ -38,6 +45,8 @@ h1 {
   color: #fff;
   text-decoration: none;
   text-align: center;
+  font-size: 1.2rem;
+  opacity: 0.75;
   }
 
 .nav li {
@@ -47,5 +56,31 @@ h1 {
 }
 
 .nav a:hover {
-  background-color: #005f5f;
+  background-color: #512100;
+  opacity: 0.75;
+}
+
+.stone {
+  width: 100%;
+  position: relative;
+}
+
+p {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  margin: 0;
+}
+
+.cap{
+  background-image: url("../images/stones.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: left top;
+  padding-top: 14em;
+  padding-bottom: 1em;
+}
+
+.fact {
+  font-size: 1.5em;
 }
