@@ -84,3 +84,35 @@ p {
 .fact {
   font-size: 1.5em;
 }
+
+.btn {
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  background-color: limegreen;
+  background-image: linear-gradient(to bottom, limegreen, #255500);
+  font-size: 1.5rem;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.bugs {
+  float: both;
+  width: 50%;
+  float: left;
+}
+
+footer{
+  background-image: url("../images/beetle.svg");
+  background-size: 50px auto;
+  background-repeat: no-repeat;
+  background-position: center 10px;
+  overflow: hidden;
+  clear: left;
+}
+
+.footer{
+  background-color: #512200;
+  opacity: 0.2;
+  padding: 2em;
+}
