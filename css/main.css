@@ -85,7 +85,7 @@ p {
   font-size: 1.5em;
 }
 
-.btn {
+.but {
   display: inline-block;
   padding: 0.5em 0.75em;
   background-color: limegreen;
@@ -94,12 +94,14 @@ p {
   color: #fff;
   text-decoration: none;
   border-radius: 6px;
+  clear: both;
 }
 
 .bugs {
   float: both;
   width: 50%;
   float: left;
+  size: 300px 300px;
 }
 
 footer{
@@ -116,3 +118,10 @@ footer{
   opacity: 0.2;
   padding: 2em;
 }
+
+.allbugs{
+  width: 50%;
+  float:left;
+}
+
+.ant
