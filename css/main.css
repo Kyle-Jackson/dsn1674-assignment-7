@@ -23,6 +23,11 @@ header {
   background-color: #78543a;
 }
 
+img {
+  width:100%;
+  display: block;
+}
+
 .nav {
   margin: 0;
   padding: 0;
